@@ -2,7 +2,7 @@ let balls = [];
 n = 20;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(600, 600);
     background(0);
     for(let i = 0; i < n; i++){
         r = 20;
